@@ -11,54 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Mathematics, University of Saskatchewan, 2027 (expected)
+* M.S. in Mathematics, University of Saskatchewan, 2023
+* B.S. in Physics, Zewail City of Science and Technology, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* May 2025 - Present: PhD Researcher, Center for Quantum Topology and Its Applications (quanTA)
+  * University of Saskatchewan
+  * Supervisor: Steven Rayan
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* March 2026 - Present: Visiting Researcher
+  * Julius-Maximilians-Universität Würzburg
+  * Supervisor: Ronny Thomale
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July 2025 - August 2025: Visiting Researcher
+  * Institute of Quantum Computing, University of Waterloo
+  * The collaboration resulted in this paper: https://arxiv.org/abs/2510.23827
   
-Skills
+Programming Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Qiskit
+* PennyLane
+* Python
+* Wolfram Mathematica
+* MATLAB
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+TBD
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+TBD
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+TBD
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* TBD
