@@ -17,8 +17,9 @@ site_theme               : "default"
 # baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "academicpages/academicpages.github.io"
 title: "Ahmed Adel Mahmoud"
+title_separator: "·"
 name: &name "Ahmed Adel Mahmoud"
-description: &description "PhD researcher in quantum information and quantum error correction"
+description: &description "Quantum information researcher developing geometric and computational approaches to quantum error correction, fault tolerance, and quantum simulation."
 url: "https://ahmeedadelmahmoud.github.io"
 baseurl: ""
 repository: "AhmeedAdelMahmoud/AhmeedAdelMahmoud.github.io"
@@ -30,14 +31,14 @@ author:
   avatar           : "ahmed.jpeg"
   name             : "Ahmed Adel Mahmoud"
   pronouns         :
-  bio              : "PhD researcher at the University of Saskatchewan working on quantum error correction, and simulations of quantum systems."
+  bio              : "Ph.D. researcher in quantum information, quantum error correction, and quantum geometry."
   location         : "Saskatoon, Saskatchewan, Canada"
   employer         : "University of Saskatchewan"
   uri              :
   email            : "ahmed.mahmoud@usask.ca"
 
   arxiv            : "https://arxiv.org/a/adelmahmoud_a_1.html"
-  googlescholar    : "https://scholar.google.com/citations?user=1b1yo04AAAAJ&hl=en&authuser=1"
+  googlescholar    : "https://scholar.google.com/citations?user=1b1yo04AAAAJ"
   impactstory      :
   orcid            : "https://orcid.org/0009-0002-9198-0165"
   researchgate     :
@@ -119,7 +120,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true
   path                   : # blank (default) uses feed.xml
 
 
@@ -141,9 +142,13 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Ahmed Adel Mahmoud"
+  links:
+    - "https://scholar.google.com/citations?user=1b1yo04AAAAJ"
+    - "https://orcid.org/0009-0002-9198-0165"
+    - "https://github.com/AhmeedAdelMahmoud"
+    - "https://www.linkedin.com/in/ahmed-adel-mahmoud-2b1101202/"
 
 
 # Analytics

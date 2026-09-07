@@ -1,36 +1,79 @@
 ---
-layout: archive
-title: "Publications"
+layout: single
+seo_title: "Publications"
 permalink: /publications/
 author_profile: true
+excerpt: "Publications by Ahmed Adel Mahmoud in quantum error correction, fault-tolerant quantum computing, and quantum simulation."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<header class="page-intro">
+  <p class="section-kicker">Research output</p>
+  <h1>Publications</h1>
+  <p>My work connects geometry, quantum information, and computation—from constructing hyperbolic quantum codes to designing experimentally accessible quantum simulators.</p>
+  <div class="resource-links">
+    <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+    <a href="{{ site.author.arxiv }}">arXiv profile <span aria-hidden="true">↗</span></a>
+    <a href="{{ site.author.orcid }}">ORCID <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
 
-{% include base_path %}
+<section class="publication-section" aria-labelledby="journal-heading">
+  <div class="section-heading section-heading--split">
+    <div>
+      <p class="section-kicker">Peer reviewed</p>
+      <h2 id="journal-heading">Journal article</h2>
+    </div>
+    <span class="section-count">01</span>
+  </div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <article class="publication-card">
+    <div class="publication-number">01</div>
+    <div>
+      <p class="publication-venue">Physical Review A 113, 042426 · 2026</p>
+      <h3>Systematic Approach to Hyperbolic Quantum Error Correction Codes</h3>
+      <p class="publication-authors"><strong>Ahmed Adel Mahmoud</strong>, Karim M. Ali, and Steven Rayan</p>
+      <p>A systematic computational framework for constructing, simulating, and benchmarking topological CSS codes on periodic hyperbolic lattices.</p>
+      <div class="publication-links">
+        <a href="https://doi.org/10.1103/95mp-w7kr">Journal article <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/AhmeedAdelMahmoud/HQECC-Threshold">Code <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </article>
+</section>
 
+<section class="publication-section" aria-labelledby="preprints-heading">
+  <div class="section-heading section-heading--split">
+    <div>
+      <p class="section-kicker">Current work</p>
+      <h2 id="preprints-heading">Preprints</h2>
+    </div>
+    <span class="section-count">02</span>
+  </div>
 
+  <article class="publication-card">
+    <div class="publication-number">02</div>
+    <div>
+      <p class="publication-venue">arXiv:2603.27004 · 2026</p>
+      <h3>Hyperbolic Cluster States for Fault-Tolerant Measurement-Based Quantum Computing</h3>
+      <p class="publication-authors"><strong>Ahmed Adel Mahmoud</strong>, Guillaume Tournaire, Sven Bachmann, and Steven Rayan</p>
+      <p>Hyperbolic resource states and decoding strategies for scalable, fault-tolerant measurement-based quantum computation.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2603.27004">Read on arXiv <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </article>
 
+  <article class="publication-card">
+    <div class="publication-number">03</div>
+    <div>
+      <p class="publication-venue">arXiv:2510.23827 · 2025 · Joint first author</p>
+      <h3>A Scalable Superconducting Circuit Framework for Emulating Physics in Hyperbolic Space</h3>
+      <p class="publication-authors">Xi-cheng Xu<sup>*</sup>, <strong>Ahmed Adel Mahmoud<sup>*</sup></strong>, Nathan Gorgichuk, Ronny Thomale, Steven Rayan, and Matteo Mariantoni</p>
+      <p>A scalable superconducting-circuit architecture for experimentally accessible emulation of hyperbolic and kagome-like lattice physics.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2510.23827">Read on arXiv <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="publication-note"><sup>*</sup>Joint first authors.</p>
+    </div>
+  </article>
+</section>
