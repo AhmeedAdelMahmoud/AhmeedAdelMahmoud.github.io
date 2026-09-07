@@ -20,8 +20,8 @@ redirect_from:
 
 <div class="credibility-strip" aria-label="Research highlights">
   <span><strong>Quantum Error Correction and Fault Tolerance</strong></span>
-  <span><strong>Quantum Simulation</strong></span>
-  <span><strong>Quantum Geometry</strong></span>
+  <span><strong>Quantum Simulation and Experimental Realization</strong></span>
+  <span><strong>Quantum Geometry and Condensed Matter Physics</strong></span>
 </div>
 
 <section class="home-section" aria-labelledby="directions-title">
