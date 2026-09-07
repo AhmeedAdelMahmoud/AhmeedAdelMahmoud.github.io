@@ -19,9 +19,9 @@ redirect_from:
 </section>
 
 <div class="credibility-strip" aria-label="Research highlights">
-  <span><strong>Physical Review A</strong> publication</span>
-  <span><strong>Joint-first-author</strong> research</span>
-  <span><strong>Open-source</strong> QEC software</span>
+  <span><strong>Quantum Error Correction and Fault Tolerance</strong></span>
+  <span><strong>Quantum Simulation</strong></span>
+  <span><strong>Quantum Geometry</strong></span>
 </div>
 
 <section class="home-section" aria-labelledby="directions-title">
